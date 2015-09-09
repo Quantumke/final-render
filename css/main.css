@@ -319,10 +319,10 @@ position:absolute;
 
 #affiliates1{
     position:absolute;
-    width:500px;
+    width:200px;
     height:115px;
     
-    left: 10px;
+    left: 20px;
     top: 5px;
 
 
@@ -336,9 +336,15 @@ position:absolute;
 }
 
 #aff2{
+    position:absolute;
+    width:500px;
+    height:115px;
     
+    left: 800px;
+    top: 5px;
 
-    
+
+
 }
 .one{
 
@@ -350,9 +356,10 @@ position:absolute;
 }
 
     #about{
-        margin-left: 50px;
+        margin-left: 10%;
 
         text-align: center;
+        
         
     }
 
@@ -362,7 +369,7 @@ position:absolute;
     height:115px;
     z-index:1;
     left: 333.33px;
-    top: 750px;
+    top: 900px;
    }
    #Design{
     position:absolute;
@@ -370,7 +377,7 @@ position:absolute;
     height:115px;
     z-index:1;
     left: 666.66px;
-    top: 750px;
+    top: 900px;
    }
    #Coding{
     position:absolute;
@@ -378,7 +385,7 @@ position:absolute;
     height:115px;
     z-index:1;
     left: 1000px;
-    top: 750px;
+    top: 900px;
    }
 
     #links{
@@ -408,7 +415,7 @@ border-bottom: thin;
 width: 1366px;
 height: 350px;
 color: #000;
-top: 1100px;
+top: 1300px;
 }
 
 
@@ -419,7 +426,7 @@ top: 1100px;
     height:115px;
     z-index:1;
     left: 108px;
-    top: 28px;
+    top: 38px;
 
     
     
@@ -431,7 +438,7 @@ top: 1100px;
     height:115px;
     z-index:1;
     left: 408px;
-    top: 1150px;
+    top: 1300px;
 
     
     
@@ -442,7 +449,7 @@ top: 1100px;
     height:115px;
     z-index:1;
     left: 608px;
-    top: 1150px;
+    top: 1300px;
 
 }
 
@@ -453,7 +460,7 @@ top: 1100px;
     height:115px;
     z-index:1;
     left: 908px;
-    top: 1150px;
+    top: 1300px;
 }
 #sidebar{
  position:fixed;
@@ -467,8 +474,60 @@ top: 1100px;
 -webkit-transform: rotate(-90deg); 
 -moz-transform: rotate(-90deg); 
 cursor: pointer;
+text-transform: lowercase;
+text-align: center;
+
+}
+
+#sidebar2{
+ position:fixed;
+    width:100px;
+    background:#378FC3;
+    color:#fff;
+    height:35px;
+    z-index:1;
+    left: 1285px;
+    top: 400px;
+-webkit-transform: rotate(-90deg); 
+-moz-transform: rotate(-90deg); 
+cursor: pointer;
+text-transform: lowercase;
+text-align: center;
 
 }
 
 
+#dproc{
+    margin-left: 50%;
 
+}
+.about1{
+    position:absolute;
+    width:200px;
+    height:115px;
+    z-index:1;
+    left: 333.33px;
+    top: 650px;
+   
+   }
+
+
+
+   .about2{
+    position:absolute;
+    width:200px;
+    height:115px;
+    z-index:1;
+    left: 666.66px;
+    top: 650px;
+    
+   }
+   .about3{
+    position:absolute;
+    width:200px;
+    height:115px;
+    z-index:1;
+    left: 1000px;
+    top: 650px;
+  
+   }
