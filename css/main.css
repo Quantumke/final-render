@@ -328,9 +328,16 @@ position:absolute;
 
 }
 
-
+.elf{
+    color:#378FC3;
+    text-transform: lowercase;
+    text-decoration: underline;
+    
+}
 
 #aff2{
+    
+
     
 }
 .one{
@@ -386,6 +393,7 @@ top: 30px;
    #cont{
     margin-left: 40px;
     margin-right: 50px;
+    color: red;
 
    }
 #slide{
